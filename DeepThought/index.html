@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deep Thought</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/Favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/Favicon.png">
+</head>
+<body>
+    <nav class="navbar">
+        <img src="/assets/logo.svg" alt="">
+        <div class="icons-container">
+            <div class="icon">
+                <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-house"></i></a>
+            </div>
+            <div class="icon">
+                <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-screwdriver-wrench"></i></i></a>
+            </div>
+            <div class="icon">
+                <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-bell"></i></i></a>
+            </div>
+            <div class="icon-pfp">
+                <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-user"></i></a>
+            </div>
+            <div class="icon-more">
+                <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+            </div>            
+        </div>
+    </nav>
+    <div class="body-container">
+        <div class="sidebar-container">
+            <div class="sidebar-header">
+                <p>Journey Board</p>
+                <i class="fa-solid fa-arrow-right arrow open" onclick="ShowSideBar()"></i>
+                <i class="fa-solid fa-arrow-left arrow close" onclick="HideSideBar()"></i>
+            </div>
+            <div class="sidebar-content">
+                <div class="sidebar-content-list hide">
+                    <ul>
+                        <li style="font-weight: bold;">Explore the World of Management
+                            <ul style="font-weight: normal;">
+                                <li>Technical Project Management</li>
+                                <li>Threadbuild</li>
+                                <li>Structure your pointers</li>
+                                <li>4SA Method</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="sidebar-content-indicate">
+                    <div class="one-container">
+                        1
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="dashboard-right-side" style="right: -30%;">
+            <div class="left-card-heading-dashboard">
+                <h1 class="vertical-text">
+                    <i class="fa-solid fa-xmark close-nb" style="font-size: medium; margin-bottom: 10px;"></i>
+                    <span>N</span>
+                    <span>O</span>
+                    <span>T</span>
+                    <span>I</span>
+                    <span>C</span>
+                    <span>E</span>
+                    <span>B</span>
+                    <span>O</span>
+                    <span>A</span>
+                    <span>R</span>
+                    <span>D</span>
+                </h1>        </div>
+        </div>
+        <div class="main-dash-container">
+            <div class="main-dash-header">
+                <h1>Technical Project Management</h1>
+                <button>Submit Task</button>
+            </div>
+            <div class="main-dash-content">
+                <h2>Explore the world of management</h2>
+                <p>As a project manager, you play an important reole in leading a project through initiation, planning, execution, monitoring, controlling and completion. How? Do you want to manage each and every step of your life?</p>
+            </div>            
+        </div>
+        <div class="card-section-container">
+            <div class="card-container">
+                <div class="card-header">
+                    <span><h3>Technical Project Management</h3></span>
+                    <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-circle-info" title="Know More"></i></a>
+                </div>
+                <div class="card-description">
+                    <strong>Description</strong> Story of Alignment Scope of Agility Specific Accountable Staggering Approach
+                </div>
+                <div class="card1-yt-container">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/TiMRwri1xJ8?si=gSZAOMhb6v1oqi3d" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card-header">
+                    <span><h3>Threadbuild</h3></span>
+                    <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-circle-info" title="Know More"></i></a>
+                </div>
+                <div class="card-description">
+                    <strong>Description</strong> Watch the video and threadbuild, and jot out key threads while watching the video.
+                </div>
+                <div class="thread-container">
+                    <div class="thread-header">
+                        <i class="fa-solid fa-angle-down toggle-icon"></i>
+                        <h3>Thread A</h3>
+                    </div>
+                    <div class="sub-thread-container hide">
+                        <div class="sub-thread">
+                            <div class="sub-thread-header">
+                                Sub Thread 1
+                            </div>
+                            <textarea id="thread-1" placeholder="Enter Text Here..."></textarea>
+                        </div>
+                        <div class="sub-thread">
+                            <div class="sub-thread-header">
+                                Sub Interpretation 1
+                            </div>
+                            <textarea id="thread-2" placeholder="Enter Text Here..."></textarea>
+                        </div>
+                        
+                        <div class="thread-select">
+                            <div class="thread-icons-container">
+                                <div class="thread-icons">
+                                    <i class="material-icons">lightbulb</i>
+                                    <i class="material-icons">message</i>
+                                    <i class="material-icons">live_help</i>
+                                    <i class="material-icons">spa</i>
+                                </div>
+                            </div>
+                            <div class="thread-selections-container">
+                                <select name="category" id="dropdown1" class="dropdown">
+                                    <option value="" disabled selected hidden>Select Category</option>
+                                    <option value="category1">Category 1</option>
+                                    <option value="category2">Category 2</option>
+                                    <option value="category3">Category 3</option>
+                                    <option value="category4">Category 4</option>
+                                </select>
+                                <select name="category" id="dropdown2" class="dropdown">
+                                    <option value="" disabled selected hidden>Select Process</option>
+                                    <option value="category1">Process 1</option>
+                                    <option value="category2">Process 2</option>
+                                    <option value="category3">Process 3</option>
+                                    <option value="category4">Process 4</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="add-sub-button-container">
+                            <button class="add-sub">
+                                + Sub-Thread    
+                            </button>
+                        </div>
+                        <div class="thread-summary-container">
+                            <div class="thread-summary-header">
+                                Summary for Thread A
+                            </div>
+                            <textarea name="Summary" id="summary1" placeholder="Enter Text Here..."></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card-header">
+                    <span><h3>Structure your Pointers</h3></span>
+                    <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-circle-info" title="Know More"></i></a>
+                </div>
+                <div class="card-description" style="font-size: 0.9rem;">
+                    <strong>Description</strong> Write a 300 - 400 word article from your thread. Publish your understanding and showcase your understanding to the entire world.
+                </div>
+                <div class="article-content-container">
+                    <div class="article-title">
+                        <div class="article-ttle-header">
+                            <span><h4>Title</h4></span>
+                        </div>
+                        <div class="article-content">
+                            <input type="text" name="" id="tile-artcile">
+                        </div>
+                    </div>
+                    <div class="content-structure-pointer-card">
+                        <h4>Content</h4>
+                        <div class="tool-bar-content-card">
+                            
+                            <div class="" style="width: 100%;">
+                                <span>
+                                    <small style="padding-right: 6px;">File</small>
+                                    <small style="padding-right: 6px;">Edit</small>
+                                    <small style="padding-right: 6px;">View</small>
+                                    <small style="padding-right: 6px;">Insert</small>
+                                    <small style="padding-right: 6px;">Format</small>
+                                    <small style="padding-right: 6px;">Tools</small>
+                                    <small style="padding-right: 6px;">Table</small>
+                                    <small style="padding-right: 6px;">Help</small>
+                                </span>
+                            </div>
+                            <div class=""  style="width: 100%;">
+                                <i class="material-icons toolbar-icons" style="font-size: large; color: grey; padding-right: 6px;">turn_left</i>
+                                <i class="material-icons toolbar-icons" style="font-size: large; color: gray; padding-right: 6px;">turn_right</i>
+                                <i class="fa-solid fa-maximize toolbar-icons" aria-hidden="true" style="font-size: medium; color: gray; padding-right: 6px;"></i>
+                                <span class="toolbar-span"><small style="background-color: #EBEBEB; padding-left: 2px; padding-right: 2px;">Paragraph</small></span>
+                                <i class="fa-solid fa-ellipsis" aria-hidden="true" style="font-size: medium; color: gray; padding-right: 6px;"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <textarea name="Content" id="structure-content" class="text-content-card"></textarea>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card-header">
+                    <span><h3>4SA Method</h3></span>
+                    <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-circle-info" title="Know More"></i></a>
+                </div>
+                <div class="card-description" style="font-size: 1.1rem;">
+                    <strong>Description</strong> To Explore more read more
+                </div>
+                <div class="card-thread-body">
+                    <div class="introduction-container" style="display: flex;">
+                        <div class="toggle-header" style="background-color: #EBEBEB;">
+                            <i class="fa-solid fa-angle-down toggle-icon-1"></i>
+                            <h3>Introduction</h3>
+                        </div>
+                        <div class="toggle-text Introduction hide">
+                            <div class="text-visible">The 4SA Method , How to bring a idea into progress?</div>
+                            <div class="text-invisible text-inv-1 hide">More text here</div>
+                            <div class="see-more"><span class="sm-btn-1">See More</span></div>
+                        </div>
+                    </div>
+                    <div class="thread-a-container">
+                        <div class="toggle-header" style="border: 1px solid rgba(93, 92, 92, 0.4);">
+                            <i class="fa-solid fa-angle-down toggle-icon-2"></i>
+                            <h3>Thread A</h3>
+                        </div>
+                        <div class="toggle-text thread-a hide">
+                            <div class="text-visible">How are you going to develop your stratergy ? Which method are you going to use to develop a stratergy ? What if the project is lengthy?</div>
+                            <div class="text-invisible text-inv-2 hide">More text here</div>
+                            <div class="see-more"><span class="sm-btn-2">See More</span></div>
+                            <div class="example-container">
+                                <div class="example-header">
+                                    <h4>Example 1</h4>
+                                </div>
+                                <div class="example-text">
+                                    You have a concept , How will you put into progress?
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="floating-buttons">
+            <a href="#" class="btn"><i class="fa-solid fa-question"></i></a>
+            <a href="#" class="btn">
+                <img src="/assets/Meeting.png" alt="" class="icon-btn">
+            </a>
+            <a href="#" class="btn">
+                <img src="/assets/Schedule.png" alt="" class="icon-btn">
+            </a>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
